@@ -127,3 +127,5 @@ function RatingSelect({ select }) {
     </ul>
   );
 }
+
+export default RatingSelect
