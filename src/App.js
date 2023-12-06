@@ -1,10 +1,8 @@
 import Header from "./components/layout/Header";
 import "./styles/App.css";
- import FeedbackData from "./data/FeedbackData";
-import FeedbackList from "./components/feedback/FeedbackList";
+ import FeedbackList from "./components/feedback/FeedbackList";
 import FeedbackStats from "./components/feedback/FeedbackStats"
 import FeedbackForm from "./components/feedback/form/FeedbackForm";
-import {v4 as uuidv4} from 'uuid'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import AboutPage from "./pages/AboutPage";
 import AboutIconLink from "./components/icons/AboutIconLink";
