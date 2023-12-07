@@ -9,10 +9,20 @@ function Header() {
       <nav>
         <h2 id="title">Pizza Feedback</h2>
         <ul>
-          <NavLink to="/" activeClassName="active">
+          <NavLink
+            to="/"
+            className={(navData) =>
+              navData.isActive ? "active-style" : "none"
+            }
+          >
             Home
           </NavLink>
-          <NavLink to="/about" activeClassName="active">
+          <NavLink
+            to="/about"
+            className={(navData) =>
+              navData.isActive ? "active-style" : "none"
+            }
+          >
             About
           </NavLink>
         </ul>
